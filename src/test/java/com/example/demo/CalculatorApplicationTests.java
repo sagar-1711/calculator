@@ -1,10 +1,8 @@
 package com.example.demo;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.demo.controller.CalculatorController;
-import static org.junit.Assert.assertEquals;  
+import com.example.demo.controller.CalculatorController;  
 @SpringBootTest
 class CalculatorApplicationTests {
 
@@ -12,9 +10,9 @@ class CalculatorApplicationTests {
 	void contextLoads() {
 		System.out.println("HEllo");
 	}
-	@Test
-	void checkOverflow() {
-		assertEquals(1,(int)CalculatorController.divide("2","2"));
+//	@Test
+//	void checkOverflow() {
+//		assertEquals(1,(int)CalculatorController.divide("2","2"));
 	}
+
 	
-}
